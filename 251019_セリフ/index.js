@@ -105,7 +105,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1));
 
 	// ty_serifu
-	this.ty_serifu = new cjs.Text("ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。ここにテキストが入る。", "12px 'Times New Roman'", "#0066CC");
+	this.ty_serifu = new cjs.Text("ここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。", "12px 'Times New Roman'", "#0066CC");
 	this.ty_serifu.name = "ty_serifu";
 	this.ty_serifu.lineHeight = 14;
 	this.ty_serifu.lineWidth = 224;
@@ -134,8 +134,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"sounds/type1.mp3?1760874460705", id:"type1"},
-		{src:"sounds/type2.mp3?1760874460705", id:"type2"}
+		{src:"sounds/type1.mp3?1760880882231", id:"type1"},
+		{src:"sounds/type2.mp3?1760880882231", id:"type2"}
 	],
 	preloads: []
 };
