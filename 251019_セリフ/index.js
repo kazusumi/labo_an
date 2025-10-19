@@ -82,7 +82,7 @@ if (reversed == null) { reversed = false; }
 		this.stop();
 		// 舞台初期化
 		initTyper(this, {
-		  soundId: "type1",     // 使わなければ null でOK
+		  soundId: "meka",     // 使わなければ null でOK
 		  volume: 0.4,
 		  autoNext: false,
 		  nextButtonName: "btnNext" // 各フレームに置くボタンのインスタンス名
@@ -105,14 +105,14 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1));
 
 	// ty_serifu
-	this.ty_serifu = new cjs.Text("ここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。", "12px 'Times New Roman'", "#0066CC");
-	this.ty_serifu.name = "ty_serifu";
-	this.ty_serifu.lineHeight = 14;
-	this.ty_serifu.lineWidth = 224;
-	this.ty_serifu.parent = this;
-	this.ty_serifu.setTransform(72.05,52.05);
+	this.ty_main__s1w100 = new cjs.Text("ここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。\nここにテキストが入る。ここにテキストが入る。", "12px 'Times New Roman'", "#0066CC");
+	this.ty_main__s1w100.name = "ty_main__s1w100";
+	this.ty_main__s1w100.lineHeight = 14;
+	this.ty_main__s1w100.lineWidth = 224;
+	this.ty_main__s1w100.parent = this;
+	this.ty_main__s1w100.setTransform(72.05,52.05);
 
-	this.timeline.addTween(cjs.Tween.get(this.ty_serifu).wait(1).to({x:63.05,y:156.2,text:"違う言葉にしてミヨタよ",lineWidth:246},0).wait(1).to({text:"寿限無寿限無"},0).wait(1).to({text:"お試しのテキストだよ。\n改行は聞くのかな。"},0).wait(1).to({text:"ふんふふふーん\nふふふふん。"},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.ty_main__s1w100).wait(1).to({x:63.05,y:156.2,text:"違う言葉にしてミヨタよ",lineWidth:246},0).wait(1).to({text:"寿限無寿限無"},0).wait(1).to({text:"お試しのテキストだよ。\n改行は聞くのかな。"},0).wait(1).to({text:"ふんふふふーん\nふふふふん。"},0).wait(1));
 
 	// bnt_next
 	this.bnt_next = new lib.btn_next();
@@ -134,8 +134,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"sounds/type1.mp3?1760880882231", id:"type1"},
-		{src:"sounds/type2.mp3?1760880882231", id:"type2"}
+		{src:"sounds/meka.mp3?1760882131129", id:"meka"},
+		{src:"sounds/type1.mp3?1760882131129", id:"type1"},
+		{src:"sounds/type2.mp3?1760882131129", id:"type2"}
 	],
 	preloads: []
 };
